@@ -52,20 +52,20 @@ xkcd.random(function(error, response) {
 });
 ```
 
-### <a name="get_latest"></a>Get the latest comic (CLI)
+### <a name="get_latest_cli"></a>Get the latest comic (CLI)
 ```
 xkcd-api
 xkcd-api -l
 xkcd-api --latest
 ```
 
-### <a name="get_comic"></a>Get a particular comic (CLI)
+### <a name="get_comic_cli"></a>Get a particular comic (CLI)
 ```
 xkcd-api -n 1714
 xkcd-api --number 1714
 ```
 
-### <a name="get_random"></a>Get a random comic (CLI)
+### <a name="get_random_cli"></a>Get a random comic (CLI)
 ```
 xkcd-api -r
 xkcd-api --random
