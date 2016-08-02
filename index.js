@@ -36,6 +36,14 @@ if ((argv.r != null && argv.r === true) || (argv.random != null && argv.random =
   });
 } else if (argv.n != null && argv.n != parseInt(argv.n, 10)) {
   console.error("Wrong usage.");
+} else if (Object.keys(argv).length === 1 && argv._.length === 0) {
+  xkcd.latest(function(error, body) {
+    if (error) {
+      console.error(error)
+    } else {
+      console.log(body);
+    }
+  });
 }
 
 module.exports = {
