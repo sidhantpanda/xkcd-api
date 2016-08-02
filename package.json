@@ -1,0 +1,28 @@
+{
+  "name": "xkcd-api",
+  "version": "1.0.0",
+  "description": "An API wrapper to fetch xkcd comics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidhantpanda/xkcd-api.git"
+  },
+  "keywords": [
+    "xkcd",
+    "api",
+    "wrapper",
+    "comics"
+  ],
+  "author": "Sidhant Panda <sidhantpanda@gmail.com> (http://hashexclude.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidhantpanda/xkcd-api/issues"
+  },
+  "homepage": "https://github.com/sidhantpanda/xkcd-api#readme",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
