@@ -14,7 +14,10 @@
     "xkcd",
     "api",
     "wrapper",
-    "comics"
+    "comics",
+    "command",
+    "line",
+    "CLI"
   ],
   "author": "Sidhant Panda <sidhantpanda@gmail.com> (http://hashexclude.com)",
   "license": "ISC",
