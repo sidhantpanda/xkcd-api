@@ -1,2 +1,2 @@
-# xkcd-comics
+# xkcd-api
 An API wrapper to fetch xkcd comics
