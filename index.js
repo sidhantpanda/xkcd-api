@@ -3,23 +3,31 @@ var xkcd = require('./xkcd-api');
 var argv = require('minimist')(process.argv.slice(2));
 
 if ((argv.r != null && argv.r === true) || (argv.random != null && argv.random === true) || (argv._.indexOf('random') >= 0)) {
-  xkcd.getRandomComic(function(error, body) {
+  xkcd.random(function(error, body) {
     if (error) {
       console.error(error)
     } else {
       console.log(body);
     }
   });
-} else if ((argv._.indexOf('latest') >= 0) || (argv.latest != null && argv.latest === true)){
-  xkcd.getLatestComic(function(error, body) {
+} else if ((argv.l != null && argv.l === true) || (argv.latest != null && argv.latest === true) || (argv._.indexOf('latest') >= 0)) {
+  xkcd.latest(function(error, body) {
     if (error) {
       console.error(error)
     } else {
       console.log(body);
     }
   });
-} else if ((argv.n != null && argv.n === parseInt(argv.n, 10)) || (argv.number != null && argv.number === parseInt(argv.n, 10))) {
-  xkcd.getComic(argv.n, function(error, body) {
+} else if ((argv.n != null && argv.n === parseInt(argv.n, 10))) {
+  xkcd.get(argv.n, function(error, body) {
+    if (error) {
+      console.error(error)
+    } else {
+      console.log(body);
+    }
+  });
+} else if (argv.number != null && argv.number === parseInt(argv.number, 10)) {
+  xkcd.get(argv.number, function(error, body) {
     if (error) {
       console.error(error)
     } else {
@@ -31,15 +39,15 @@ if ((argv.r != null && argv.r === true) || (argv.random != null && argv.random =
 }
 
 module.exports = {
-  getComic : function(number, callback) {
-    xkcd.getComic(number, callback);
+  get : function(number, callback) {
+    xkcd.get(number, callback);
   },
 
-  getLatestComic : function(callback) {
-    xkcd.getLatestComic(callback);
+  latest : function(callback) {
+    xkcd.latest(callback);
   },
 
-  getRandomComic : function(callback) {
-    xkcd.getRandomComic(callback);
+  random : function(callback) {
+    xkcd.random(callback);
   }
 }

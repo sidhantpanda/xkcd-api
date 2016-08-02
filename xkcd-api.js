@@ -3,11 +3,11 @@ var request = require('request');
 var HOST = "http://xkcd.com/"
 
 module.exports = {
-  getComic : function(number, callback) {
+  get : function(number, callback) {
     getComic(number, callback);
   },
 
-  getLatestComic : function(callback) {
+  latest : function(callback) {
     request.get({
       url     : HOST + '/info.0.json',
       json    : true
@@ -21,7 +21,7 @@ module.exports = {
     });
   },
 
-  getRandomComic : function(callback) {
+  random : function(callback) {
     request.get({
       url     : HOST + '/info.0.json',
       json    : true
