@@ -72,5 +72,9 @@ xkcd-api --random
 ```
 
 ---
+### Contributors
+[Štefan Jarina](https://github.com/stefanjarina)
+
+---
 ### Submit issues
 You can raise an issue in this repo or mail me at sidhant@hashexclude.com
