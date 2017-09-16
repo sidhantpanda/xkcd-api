@@ -20,7 +20,7 @@
     "CLI"
   ],
   "author": "Sidhant Panda <sidhantpanda@gmail.com> (http://hashexclude.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sidhantpanda/xkcd-api/issues"
   },
