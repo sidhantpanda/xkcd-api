@@ -1,5 +1,5 @@
 # xkcd-api
-An API wrapper to fetch xkcd comics. Includes CLI too!
+An API wrapper to fetch xkcd comics. Includes CLI too.
 
 ```
 npm install xkcd-api
