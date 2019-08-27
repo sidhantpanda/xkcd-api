@@ -1,6 +1,6 @@
 {
   "name": "xkcd-api",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "An API wrapper to fetch xkcd comics",
   "main": "index.js",
   "scripts": {
