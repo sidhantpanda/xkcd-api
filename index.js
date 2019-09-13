@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var xkcd = require('./xkcd-api');
 
 if (require.main === module) {
