@@ -1,6 +1,6 @@
 {
   "name": "xkcd-api",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "An API wrapper to fetch xkcd comics",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "line",
     "CLI"
   ],
-  "author": "Sidhant Panda <sidhantpanda@gmail.com> (http://hashexclude.com)",
+  "author": "Sidhant Panda <sidhant@panda.fyi> (https://sidhantpanda.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sidhantpanda/xkcd-api/issues"
@@ -28,5 +28,8 @@
   "dependencies": {
     "minimist": "1.2.0",
     "request": "2.88.0"
+  },
+  "bin": {
+    "xkcd-api": "./index.js"
   }
 }
