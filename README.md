@@ -1,14 +1,16 @@
 # xkcd-api
-An API wrapper to fetch xkcd comics.
-
-Includes CLI too.
+An API wrapper and CLI tool to fetch xkcd comics.
 
 ```
-npm install xkcd-api
+$ npx xkcd-api
+```
+
+```
+$ npm install xkcd-api
 ```
 
 ```javascript
-var xkcd = require('xkcd-api');
+$ var xkcd = require('xkcd-api');
 ```
 
 ### APIs available
@@ -53,6 +55,9 @@ xkcd.random(function(error, response) {
   }
 });
 ```
+
+## CLI Features
+Please make sure you've installed the package globally or are running it with npx.
 
 ### <a name="get_latest_cli"></a>Get the latest comic (CLI)
 ```
