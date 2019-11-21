@@ -29,7 +29,7 @@ xkcd.latest(function(error, response) {
   if (error) {
     console.error(error);
   } else {
-    console.log(reponse);
+    console.log(response);
   }
 });
 ```
@@ -40,7 +40,7 @@ xkcd.get('comic-id', function(error, response) {
   if (error) {
     console.error(error);
   } else {
-    console.log(reponse);
+    console.log(response);
   }
 });
 ```
@@ -51,7 +51,7 @@ xkcd.random(function(error, response) {
   if (error) {
     console.error(error);
   } else {
-    console.log(reponse);
+    console.log(response);
   }
 });
 ```
