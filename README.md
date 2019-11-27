@@ -81,6 +81,7 @@ xkcd-api --random
 ---
 ### Contributors
 [Štefan Jarina](https://github.com/stefanjarina)
+[justchen1369](https://github.com/justchen1369)
 
 ---
 ### Submit issues
