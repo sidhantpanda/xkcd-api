@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/sidhantpanda/xkcd-api#readme",
   "dependencies": {
-    "minimist": "1.2.2",
+    "minimist": "1.2.3",
     "request": "2.88.0"
   },
   "bin": {
